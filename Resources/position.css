@@ -1,0 +1,94 @@
+
+header{
+    display:flex;
+    justify-content: space-around;
+       
+}
+.first-three{
+    display: flex;
+    justify-content: space-around;   
+    padding-left: 300px; 
+}
+.second-three{
+    padding-left: 300px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+main .first-three .title1 {
+    padding-top:150px;
+    
+}
+ .second-three #photo5{
+    padding-top:150px
+}
+
+.first-three  h2{
+    writing-mode: vertical-rl;
+}
+.second-three  h2{
+    writing-mode: vertical-rl;
+}
+
+.first-three > div {
+ flex-basis: calc(100% / 3);
+}
+
+.second-three > div {
+    flex-basis: calc(100% / 3);
+}
+
+.title {
+    display: flex;  
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.title img {
+    object-fit: cover;
+}
+.title1 {
+    display: flex;  
+    flex-direction: row;
+    align-items: flex-start;
+}
+.title1 img {
+    object-fit: cover;
+}
+.title2 {
+    display: flex;  
+    flex-direction: row;
+    align-items: flex-start;
+}
+.title3 {
+    display: flex;  
+    flex-direction: row;
+    align-items: flex-start;
+}
+.title4 {
+    display: flex;  
+    flex-direction: row;
+    align-items: flex-start;
+}
+.title5 {
+    display: flex;  
+    flex-direction: row;
+    align-items: flex-start;
+}
+.title2 img {
+    object-fit:cover;
+}
+.title3 img {
+    object-fit: cover;
+}
+.title4 img {
+    object-fit: cover;
+}
+.title5 img {
+    object-fit: cover;
+}
+footer p{
+    text-align:center;
+    padding-left:150px ;
+    
+}

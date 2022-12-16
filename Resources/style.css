@@ -1,0 +1,76 @@
+/*Importing fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=PT+Sans&family=Poppins:wght@600&display=swap');
+/*Styling*/
+header h1{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    size:36px;
+    line-height: 100%;
+    letter-spacing: -4.5%;
+    align-items: left;
+    vertical-align: top;
+}
+header .introduction h2{
+    font-family:'poppins' sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    line-height: 100%;
+    weight:600px;
+}
+header .introduction p{
+    font-family:'poppins' sans-serif;
+    font-size: 18px;
+    vertical-align: top;
+    line-height: 100%;
+    weight:400px;
+    font-style:normal;
+}
+.first-three h2{
+    font-family: 'PT Sans', sans-serif ;
+    font-size: 12px;
+    line-height: 16px;
+    line-height: 100%;
+}
+.first-three p{
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 100%;
+
+}
+.second-three h2{
+    font-family: 'PT Sans', sans-serif ;
+    font-size: 12px;
+    line-height: 16px;
+    line-height: 100%;
+}
+.second-three p{
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 100%;
+
+}
+.first-three img{
+    width: 238px;
+    height: 426.5px;
+    top: 244.5px;
+    left: 478px;
+    object-fit: contain;
+    
+
+}
+.second-three img{
+    width: 238px;
+    height: 426.5px;
+    top: 244.5px;
+    left: 478px;
+    object-fit: contain;
+    
+
+}
+footer p{
+    font-family: 'Montserrat' sans-serif;
+    color:#A9A9A9;
+
+}
